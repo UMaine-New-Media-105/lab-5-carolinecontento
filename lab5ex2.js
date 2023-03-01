@@ -86,6 +86,11 @@ function keyPressed(){
     if (keyCode === LEFT_ARROW){
       speedX = speedX * -1;
     } else if (keyCode === RIGHT_ARROW){
+      speedX = speedX * -1;
+    }
+  if (keyCode === UP_ARROW){
+      speedY = speedY * -1;
+    } else if (keyCode === DOWN_ARROW){
       speedY = speedY * -1;
     }
 }
