@@ -14,5 +14,6 @@ I created a function for my sprite outside of the draw function
 called myCatcher to draw and then created four if statements 
 Then created a function for keyPressed
 left arrow coded for speedX
-right arrow coded for speedY
+right arrow coded for speedX
+up arrow and down arrow are coded for speedY
 once either of those keys are pressed the sprite changes direction
